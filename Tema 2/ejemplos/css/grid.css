@@ -1,0 +1,101 @@
+body div{
+    border:1px solid black;
+    text-align: center;
+}
+
+header{
+    background-color: green;
+}
+
+nav{
+    background-color: brown;
+}
+
+main{
+    background-color: dimgrey;
+}
+
+section{
+    background-color: red;
+}
+
+article{
+    background-color: purple;
+}
+
+aside{
+    background-color: yellow;
+}
+
+footer{
+    background-color: orange;
+}
+
+.grid12{
+    grid-template-columns:repeat(12,1fr);
+}
+
+.grid8{
+    grid-template-columns:repeat(8,1fr);
+}
+
+.bloqueGrid{
+    display: grid;
+}
+
+.span12{
+    grid-column:auto / span 12;
+}
+
+.span8{
+    grid-column:auto / span 8;
+}
+
+.span4{
+    grid-column:auto / span 4;
+}
+
+
+
+.bloqueFlex{
+    display: flex;
+}
+
+.bloque{
+    background-color: cornflowerblue;
+}
+
+nav .bloque{
+    height: 20px;
+    flex-basis: 30%;
+}
+
+nav .bloqueFlex{
+    justify-content: space-between;
+}
+
+section .bloqueFlex{
+    flex-direction: row-reverse;
+    flex-wrap:wrap-reverse;
+    justify-content: space-around;
+}
+section .bloqueFlex div{
+    flex-basis:30%;
+    height: 300px;
+}
+
+aside .bloqueFlex{
+    flex-direction: column-reverse;
+    align-items: center;
+    justify-content: space-around;
+}
+
+aside .bloqueFlex div{
+    width: 200px;
+    height: 200px;
+}
+
+article div{
+    height: 150px;
+}
+
