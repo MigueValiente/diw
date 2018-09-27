@@ -1,0 +1,29 @@
+#cuadrado1 .img1 {
+    width:200px;
+    height: 400px;
+
+}
+
+#cuadrado1 .img2 {
+    width:200px;
+    height: 400px;
+    object-fit:fill;
+}
+
+#cuadrado1 .img3 {
+    width:200px;
+    height: 400px;
+    object-fit:fill;
+}
+
+#cuadrado1 .img4 {
+    width:200px;
+    height: 400px;
+    object-fit:fill;
+}
+
+#cuadrado1 .img5 {
+    width:200px;
+    height: 400px;
+    object-fit:fill;
+}

@@ -1,0 +1,25 @@
+#cuadrado1{
+    background: radial-gradient(blue,purple);
+    color:purple;
+    height: 150px;
+}
+
+#cuadrado2{
+    background: radial-gradient(circle,blue,red,green);
+    color:black;
+    width:100%;
+    height: 150px;
+}
+
+#cuadrado3{
+    background: radial-gradient(rgba(0,0,255,0.1) 30%,rgba(255,0,0,0.1) 30%,rgba(0,255,0,0.1) 30%);
+    width:100%;
+    height: 150px;
+}
+
+#cuadrado4{
+    background: repeating-radial-gradient(blue,red 20%,green 20%);
+    color:orange;
+    width:100%;
+    height: 150px;
+}

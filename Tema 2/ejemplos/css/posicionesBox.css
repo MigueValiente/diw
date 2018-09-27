@@ -1,0 +1,33 @@
+body{
+    width:2000px;
+    height:2000px;
+}
+
+#cuadrado1{
+    width: 200px;
+    height: 200px;
+    border: 10px dashed yellow;
+    position: absolute;
+    z-index:1;
+}
+
+#cuadrado2{
+    width: 200px;
+    height: 200px;
+    border: 10px dashed yellow;
+    position: relative;
+    z-index:-1;
+}
+
+#cuadrado3{
+    width: 200px;
+    height: 200px;
+    border: 10px dashed yellow;
+    position: fixed;
+}
+
+#cuadrado4{
+    width: 200px;
+    height: 200px;
+    border: 10px dashed yellow;
+}

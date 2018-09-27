@@ -1,0 +1,33 @@
+#cuadrado1{
+    background-color: green;
+    width:1000px;
+    height: 300px;
+}
+
+@keyframes ejemplo{
+    0%{background-color: pink;}
+    50%{background-color: orange;}
+    100%{background-color: blue;}
+}
+
+@keyframes ejemplo2{
+    0%{background-color: yellow;}
+    50%{background-color: brown;}
+    100%{background-color: purple;}
+}
+
+
+
+@media screen and (min-width: 200px){
+    #cuadrado1{
+        animation: ejemplo 5s;
+        animation-iteration-count:infinity;
+    }
+}
+
+@media screen and (min-width: 500px){
+    #cuadrado1{
+        animation: ejemplo2 5s;
+        animation-iteration-count:infinity;
+    }
+}

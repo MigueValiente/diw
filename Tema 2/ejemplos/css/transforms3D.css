@@ -1,0 +1,77 @@
+.cuadrado{
+    width:300px;
+    height: 400px;
+}
+
+.elemento {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+#cuadrado1{
+    background-color: green;
+}
+
+#cuadrado1:hover{
+    /*Probar a cambiar los valores*/
+    transform: rotateY(180deg) rotateX(180deg) rotateZ(45deg);
+}
+
+
+#cuadrado2{
+    background-color: green;
+}
+
+#cuadrado2:hover{
+    /*Probar a cambiar los valores*/
+    transform: scaleY(2) scaleX(1) scaleZ(1) rotateZ(45deg);
+}
+
+
+#cuadrado3{
+     margin:auto;
+     background-color: green;
+     /*Probar a cambiar los valores de la perspectiva*/
+     perspective: 500px;
+     /*Probar a cambiar los valores del origen de la perspectiva*/
+     perspective-origin: 50% 50%;
+ }
+
+#cuadrado3 .elemento{
+    transform: rotateX(45deg);
+}
+
+
+#cuadrado4{
+    position: relative;
+    margin:auto;
+    background-color: orange;
+}
+
+#cuadrado4 .elemento1{
+     padding: 50px;
+     position: absolute;
+     border: 1px solid black;
+     background-color: green;
+     transform: rotateY(50deg);
+ }
+
+#cuadrado4 .elemento2{
+    padding: 40px;
+    position: absolute;
+    border: 1px solid black;
+    background-color: blue;
+    transform: rotateY(70deg);
+}
+
+#cuadrado5{
+    background-color: green;
+    /*Probar a cambiar los valores*/
+    transform: rotateY(180deg);
+    /*Probar a cambiar los valores*/
+    Backface-visibility:visible;
+}
+
+

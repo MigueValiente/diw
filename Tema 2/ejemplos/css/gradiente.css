@@ -1,0 +1,25 @@
+#cuadrado1{
+    background: linear-gradient(to right,blue,purple);
+    color:purple;
+    height: 25%;
+}
+
+#cuadrado2{
+    background: linear-gradient(to top,blue,red,green);
+    color:black;
+    width:100%;
+    height: 25%;
+}
+
+#cuadrado3{
+    background: linear-gradient(to top,rgba(0,0,255,0.1),rgba(255,0,0,0.1),rgba(0,255,0,9));
+    width:100%;
+    height: 25%;
+}
+
+#cuadrado4{
+    background: repeating-linear-gradient(blue,red 20%,green 20%);
+    color:orange;
+    width:100%;
+    height: 25%;
+}

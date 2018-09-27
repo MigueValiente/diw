@@ -1,0 +1,38 @@
+#cuadrado1{
+    background:url("../images/tierra.jpg") no-repeat fixed;
+    background-size: 50% 200px;
+    color:purple;
+    height: 300px;
+}
+
+#cuadrado2{
+    background:url("../images/fuego.jpg"),url("../images/fuego2.jpg"),url("../images/fuego3.jpg") ;
+    background-repeat: no-repeat,no-repeat,no-repeat;
+    background-position:left, center, right;
+    background-origin:padding-box;
+    color:black;
+    width:90%;
+    height: 150px;
+    border:5px solid green;
+    padding: 20px;
+}
+
+#cuadrado3{
+    background-image:url("../images/agua.jpg");
+    background-position:right bottom;
+    background-repeat: no-repeat;
+    background-size: cover;
+    color:yellow;
+    width:100%;
+    height: 150px;
+}
+
+#cuadrado4{
+    border: 10px dotted black;
+    padding: 35px;
+    background: yellow;
+    background-clip: padding-box;
+    color:orange;
+    width:100%;
+    height: 150px;
+}

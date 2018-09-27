@@ -1,0 +1,33 @@
+#cuadrado1{
+    font-family: Verdana, Geneva, Arial, Helvetica, sans-serif;
+    width: 500px;
+    color:green;
+    border:10px solid black;
+}
+
+#cuadrado2{
+    font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+    width: 500px;
+    color:blue;
+    border:10px solid black;
+}
+
+#cuadrado3{
+    font-family: "Courier New", Courier, monospace;
+    width:500px;
+    color:red;
+    border:10px solid black;
+}
+
+@font-face {
+    font-family: myFirstFont;
+    src: url(../images/PTS76F.ttf);
+    font-weight: bold;
+}
+
+#cuadrado4{
+    font-family: myFirstFont;
+    width:200px;
+    color:orange;
+    border:10px solid black;
+}

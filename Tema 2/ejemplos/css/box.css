@@ -1,0 +1,30 @@
+#cuadrado1{
+    width: 50em;
+    height: 5em;
+    border:10px solid red;
+    margin:50px;
+}
+
+#cuadrado2{
+    width: 600px;
+    height: 10em;
+    padding: 50px;
+    border: 20px solid green;
+    margin:0 auto;
+    box-sizing: content-box;
+}
+
+#cuadrado3{
+    width: 50em;
+    height: 5em;
+    border:10px solid blue;
+    visibility: hidden;
+}
+
+#cuadrado4{
+    width: 50em;
+    height: 5em;
+    border:10px solid orange;
+    padding: 50px;
+    box-shadow: 20px 40px 30px blue;
+}

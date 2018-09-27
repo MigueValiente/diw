@@ -1,0 +1,89 @@
+@keyframes ejemplo1{
+    from {background-color: red;}
+    to {background-color: yellow;}
+}
+
+.cuadrado{
+    width:200px;
+    height: 200px;
+}
+
+#cuadrado1{
+    background-color: green;
+}
+
+#cuadrado1:hover{
+    animation-name: ejemplo1;
+    animation-duration: 4s;
+}
+
+
+@keyframes ejemplo2{
+    0%   {background-color: red;}
+    25%  {background-color: yellow;}
+    50%  {background-color: blue;}
+    100% {background-color: green;}
+}
+
+#cuadrado2{
+    background-color: black;
+}
+
+#cuadrado2:hover{
+    animation-name: ejemplo2;
+    animation-duration: 10s;
+}
+
+
+/*Probar definiendo una nueva animación para el cuadrado3*/
+
+#cuadrado3{
+    background-color: black;
+    animation-name: ejemplo2;
+    animation-duration: 4s;
+    animation-delay: 1s;
+    animation-iteration-count: 5;
+    /*cambiar los valores para ver como se comporta*/
+    animation-direction: normal;
+}
+
+@keyframes ejemplo4 {
+
+    from {
+        background-color: blue;
+    }
+
+    to {
+        background-color: pink;
+        transform: translateX(500px) scale(.5);
+    }
+
+}
+
+#cuadrado4{
+    background-color: black;
+    animation-name: ejemplo4;
+    animation-duration: 5s;
+    /*Probar a cambiar este valor*/
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    animation-iteration-count: 10;
+}
+
+#cuadrado5{
+    background-color: orange;
+    animation-name: ejemplo4;
+    animation-duration: 5s;
+    animation-fill-mode: both;
+    animation-delay: 3s;
+    animation-iteration-count: 10;
+    /*Cambiar este valor para que funcione*/
+    animation-play-state : running;
+    /*Probar a cambiar este valor*/
+    animation-timing-function: ease;
+    /*Probar a cambiar el valor de cuadrado 4, para comparar*/
+}
+
+
+
+

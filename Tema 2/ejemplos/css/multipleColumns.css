@@ -1,0 +1,26 @@
+#cuadrado2{
+    column-count: 0;
+    column-gap: 40px;
+    column-width:100px;
+}
+
+#cuadrado2 h2{
+    column-span : none;
+}
+
+#cuadrado3{
+    margin-top:20px;
+    column-count: 6;
+    column-gap: 30px;
+    column-rule: 1px solid blue ;
+
+}
+
+#cuadrado4{
+    margin: 50px;
+    width:50px;
+    height:50px;
+    border: 3px solid black;
+    resize: horizontal;
+    overflow: auto;
+}

@@ -1,0 +1,193 @@
+/** PROBAND LAS FLEXBOX**/
+.cuadrado{
+    margin-bottom: 20px;
+}
+/*DIRECCION*/
+.cuadrado1{
+     /* Probar diferencia con display:block**/
+     display: flex;
+     width: 900px;
+     height: 250px;
+     background-color: lightgrey;
+     /*Probar con los diferentes valos de flex-direction para entender el eje principal*/
+     flex-direction: row;
+ }
+
+.cuadrado1 .elemento{
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+/*WRAP*/
+.cuadrado2{
+    display: flex;
+    /*Probar a cambiar el tamaño para comprobar el comportamiento de los elementos hijos*/
+    width: 100px;
+    height: 400px;
+    background-color: lightgrey;
+    /*Probar con los diferentes valores de wrap*/
+    flex-wrap: nowrap;
+}
+
+.cuadrado2 .elemento  {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.cuadrado2 .elemento1,.cuadrado2 .elemento2{
+    width:100px;
+}
+
+.cuadrado2 .elemento3{
+    width:200px;
+}
+
+/*ALINEACIÓN HORIZONTAL*/
+
+.cuadrado3{
+    display: flex;
+    /*Probar a cambiar el tamaño para comprobar el comportamiento de los elementos hijos*/
+    width: 1000px;
+    height: 150px;
+    background-color: lightgrey;
+    justify-content: space-between;
+}
+
+
+.cuadrado3 .elemento {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.cuadrado3 .elemento1{
+    width:100px;
+}
+
+.cuadrado3 .elemento2{
+    width:200px;
+}
+
+.cuadrado3 .elemento3{
+    width:300px;
+}
+
+
+/*ALINEACIÓN VERTICAL*/
+
+.cuadrado4{
+    display: flex;
+    /*Probar a cambiar el tamaño para comprobar el comportamiento de los elementos hijos*/
+    width: 1000px;
+    height: 500px;
+    background-color: lightgrey;
+   /*Probar a cambiar el valor de align-content*/
+    align-items: flex-start;
+    /*Para el caso del valor stretch debeis comentar el alto de todos los elementos*/
+    /*Para el caso del valor baseline, incluir un margen top a algunos de los elementos*/
+
+}
+
+/*Una vez probado align-items , porbar a cambiar el valor align-self, de cada uno de los elementos*/
+
+.cuadrado4 .elemento {
+    background-color: cornflowerblue;
+    width: 100px;
+    margin: 10px;
+}
+
+
+.cuadrado4 .elemento1{
+    height:100px;
+    align-self: auto;
+}
+
+.cuadrado4 .elemento2{
+    height:300px;
+    align-self: auto;
+}
+
+.cuadrado4 .elemento3{
+    height:200px;
+    align-self: auto;
+}
+
+/*Align-content, para alinear líneas*/
+
+.cuadrado5{
+    display: flex;
+    flex-flow: row wrap;
+    width: 500px;
+    height: 200px;
+    background-color: lightgrey;
+    align-content: stretch;
+}
+
+.cuadrado5 .elemento {
+    background-color: cornflowerblue;
+    margin: 2px;
+    width: 100px;
+    min-height: 30px;
+}
+
+/*Para ordernar los elementos*/
+.cuadrado6{
+    display: flex;
+    width: 800px;
+    height: 150px;
+    background-color: lightgrey;
+}
+
+.cuadrado6 .elemento {
+    background-color: cornflowerblue;
+    width: 100px;
+    height: 100px;
+    margin: 10px;
+}
+
+.cuadrado6 .elemento1{
+    order:0;
+}
+
+.cuadrado6 .elemento2{
+    order:0;
+}
+
+.cuadrado6 .elemento3{
+    order:0;
+}
+
+/*Propiedad flex*/
+
+.cuadrado7{
+    display: flex;
+    width: 170px;
+    height: 150px;
+    background-color: lightgrey;
+}
+
+.cuadrado7 .elemento {
+    background-color: cornflowerblue;
+    margin: 10px;
+}
+
+.cuadrado7 .elemento1{
+    flex:1 1 100px;
+}
+
+.cuadrado7 .elemento2{
+    flex:3 3 100px;
+}
+
+
+
+
+
+
+
+

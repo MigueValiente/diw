@@ -1,0 +1,36 @@
+#cuadrado1{
+    color:green;
+    text-align: end;
+    text-shadow: 2px 2px purple;
+}
+
+#cuadrado2{
+    width: 150px;
+    color:blue;
+    text-space: 30px;
+    letter-spacing: 30px;
+    text-align: center;
+    word-wrap: break-word;
+    border:10px solid red;
+}
+
+#cuadrado3{
+    width:50px;
+    color:red;
+    text-align: left;
+    word-break: break-all;
+}
+
+#cuadrado4{
+    width:100px;
+    color:yellow;
+    white-space: nowrap;
+    overflow: hidden;
+    text-overflow: clip;
+    border:10px solid black;
+}
+
+#cuadrado4:hover {
+    text-overflow: inherit;
+    overflow: visible;
+}

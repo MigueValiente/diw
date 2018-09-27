@@ -1,0 +1,59 @@
+.cuadrado{
+    width:200px;
+    height: 200px;
+}
+
+#cuadrado1{
+    background-color: green;
+}
+
+#cuadrado1:hover{
+    transform: translate(50px,100px);
+    /*transform: translateX(50px);*/
+    /*transform: translateY(100px);*/
+}
+
+#cuadrado2{
+    background-color: blue;
+}
+
+#cuadrado2:hover{
+    transform:rotate(380deg);
+}
+
+#cuadrado3{
+    background-color: red;
+}
+
+#cuadrado3:hover{
+    transform: scale(2,3);
+    /*transform: scaleX(6);*/
+    /*transform: scaleY(0.5);*/
+
+}
+
+#cuadrado4{
+    background-color: yellow;
+}
+
+#cuadrado4:hover{
+    transform: skew(20deg,30deg);
+    /*transform: skewX(20deg);*/
+    /*transform: skewY(30deg);*/
+}
+
+#cuadrado5{
+    background-color: purple;
+}
+
+#cuadrado5:hover{
+    transform: matrix(1, -0.3, 0, 1, 15, 20);
+}
+
+#cuadrado6{
+    background-color: purple;
+}
+
+#cuadrado6:hover{
+    transform:translate(200px,0px) rotate(45deg);
+}

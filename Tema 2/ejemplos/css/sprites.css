@@ -1,0 +1,41 @@
+body{
+    width:1300px;
+    height:2000px;
+}
+
+#cuadrado1{
+    width: 33px;
+    height: 33px;
+    background: url("../images/sprite.jpg") 0 0;
+    border: 10px dashed yellow;
+    margin:30px;
+}
+
+#cuadrado2{
+    width: 33px;
+    height: 33px;
+    background: url("../images/sprite.jpg") -33px 0px;
+    border: 10px dashed yellow;
+    margin:30px;
+}
+
+#cuadrado2:hover {
+    background: url("../images/sprite.jpg") 0 -33px;
+}
+
+
+#cuadrado3{
+    width: 33px;
+    height: 33px;
+    background: url("../images/sprite.jpg") 0 -33px;
+    border: 10px dashed yellow;
+    margin:30px;
+}
+
+#cuadrado4{
+    width: 33px;
+    height: 33px;
+    background: url("../images/sprite.jpg") 33px 33px;
+    border: 10px dashed yellow;
+    margin:30px;
+}

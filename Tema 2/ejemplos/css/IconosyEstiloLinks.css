@@ -1,0 +1,27 @@
+#cuadrado1{
+}
+
+#cuadrado2{
+}
+
+#cuadrado3{
+
+}
+
+#cuadrado4 a{
+    text-decoration: none;
+}
+
+
+#cuadrado4 a:link{
+    color:green;
+}
+#cuadrado4 a:visited{
+    color:orange;
+}
+#cuadrado4 a:hover{
+    color:yellow;
+}
+#cuadrado4 a:active{
+    color:purple;
+}
