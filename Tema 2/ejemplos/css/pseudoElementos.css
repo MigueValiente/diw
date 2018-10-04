@@ -1,0 +1,16 @@
+.primerCuadro p::first-line{
+    text-transform: uppercase; 
+}
+
+.segundoCuadro p::first-letter{
+    color:red;
+}
+
+.primerCuadro:before{
+    content: "ESTO SE GENERA POR CSS"
+}
+
+.segundoCuadro:after{
+    content: url(http://www.remadays.com/wp-content/uploads/2016/11/Picture_online-2015.jpg)
+}
+

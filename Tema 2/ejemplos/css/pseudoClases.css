@@ -1,0 +1,23 @@
+#cuadrado1{
+    background-color:green;
+    width:100px;
+    height: 100px;
+}
+#cuadrado1:hover{
+    background-color:red;
+}
+
+input:focus{
+    border:10px blue solid;
+}
+
+@keyframes animacion1{
+    from {}
+    to {transform: translateX(500px) scale(2.5);}
+}
+
+
+.check:checked{
+    animation-name: animacion1;
+    animation-duration: 5s;
+}
