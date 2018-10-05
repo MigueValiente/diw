@@ -1,0 +1,23 @@
+#cuadrado1{
+height: 300px;
+width: 300px;
+background-color: rgb(255,99,71);
+}
+
+#cuadrado2{
+height: 300px;
+width: 300px;
+background-color: rgb(255,99,71,0.5);
+}
+
+#cuadrado3{
+    height: 300px;
+    width: 300px;
+    background-color: hsla(80,50%,20%);
+}
+
+#cuadrado4{
+    height: 300px;
+    width: 300px;
+    background-color: hsla(80,50%,20%,0.5);
+}

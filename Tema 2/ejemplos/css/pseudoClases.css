@@ -19,5 +19,5 @@ input:focus{
 
 .check:checked{
     animation-name: animacion1;
-    animation-duration: 5s;
+    animation-duration: 1s;
 }
