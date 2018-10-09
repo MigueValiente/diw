@@ -25,9 +25,22 @@
     font-weight: bold;
 }
 
+@font-face {
+    font-family: myWeirdFont;
+    src: url(../images/ChelaOne-Regular.ttf);
+    font-weight: bold;
+}
+
 #cuadrado4{
     font-family: myFirstFont;
     width:200px;
     color:orange;
+    border:10px solid black;
+}
+
+#cuadrado5{
+    font-family: myWeirdFont;
+    width:200px;
+    color:rgb(255, 106, 6);
     border:10px solid black;
 }

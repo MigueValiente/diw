@@ -5,7 +5,7 @@
 }
 
 #cuadrado2{
-    background-image:url("../images/fuego.jpg"),url("../images/fuego2.jpg"),url("../images/fuego3.jpg") ;
+    background-image:url("../images/fuego.jpg"),url("../images/fuego2.jpg"),url("../images/fuego3.jpg");
     background-repeat: no-repeat,no-repeat,no-repeat;
     background-attachment:scroll;
     background-position:left, center, right;

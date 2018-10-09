@@ -1,0 +1,15 @@
+#cielo1{
+    width: 50%;
+    height: 1000px;
+    background: url("../images/cielo.jpg") no-repeat scroll;
+    float: left;
+    color: red;
+}
+
+#cielo2{
+    width: 50%;
+    height: 1000px;
+    background: linear-gradient(to top, white, blue) no-repeat scroll;
+    float: right;
+    color: red;
+}
