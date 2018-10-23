@@ -1,0 +1,34 @@
+#cuadrado1{
+    height: 50%;
+    width: 50%;
+    background-color: red;
+    float: left;
+}
+
+#cuadrado2{
+    height: 50%;
+    width: 50%;
+    background-color: green;
+    float: right;
+}
+
+#cuadrado3{
+    height: 50%;
+    width: 25%;
+    background-color: darkorchid;
+    float: left;
+}
+
+#cuadrado4{
+    height: 50%;
+    width: 25%;
+    background-color: blue;
+    float: right;
+}
+
+#cuadrado5{
+    height: 50%;
+    width: 100%;
+    background-color: orangered;
+    clear: both;
+}

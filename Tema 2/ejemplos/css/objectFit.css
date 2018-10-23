@@ -7,23 +7,23 @@
 #cuadrado1 .img2 {
     width:200px;
     height: 400px;
-    object-fit:fill;
+    object-fit: contain;
 }
 
 #cuadrado1 .img3 {
     width:200px;
     height: 400px;
-    object-fit:fill;
+    object-fit: cover;
 }
 
 #cuadrado1 .img4 {
     width:200px;
     height: 400px;
-    object-fit:fill;
+    object-fit: none;
 }
 
 #cuadrado1 .img5 {
     width:200px;
     height: 400px;
-    object-fit:fill;
+    object-fit: scale-down;
 }

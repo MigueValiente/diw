@@ -3,6 +3,13 @@
     to {background-color: yellow;}
 }
 
+@keyframes example{
+    0%{background-color:red;left:0px;top:0px;}
+    25%{background-color:yellow;left:200px;top:0px;}
+    50%{background-color:blue;left:200px;top:200px;}
+    75%{background-color:green;left:0px;top:200px;}
+    100%{background-color:rgb(113, 255, 108);left:0px;top:0px;}}
+
 .cuadrado{
     width:200px;
     height: 200px;
@@ -13,8 +20,10 @@
 }
 
 #cuadrado1:hover{
-    animation-name: ejemplo1;
-    animation-duration: 4s;
+    animation-name: example;
+    animation-duration: 8s;
+    animation-iteration-count: infinite;
+    animation-fill-mode: both;
 }
 
 
@@ -35,7 +44,7 @@
 }
 
 
-/*Probar definiendo una nueva animación para el cuadrado3*/
+/*Probar definiendo una nueva animaciï¿½n para el cuadrado3*/
 
 #cuadrado3{
     background-color: black;

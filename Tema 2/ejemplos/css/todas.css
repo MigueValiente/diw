@@ -1,0 +1,82 @@
+#cuadrado1{
+    color: rgba(0,255,0,0.5);
+}
+
+#cuadrado2{
+    background: linear-gradient(to top,blue,red,green);
+    color:black;
+    width:100%;
+    height: 25%;
+}
+
+#cuadrado3{
+    border: blue dotted 2px; 
+    box-shadow: 5px;
+}
+
+#cuadrado4{
+    border-radius: 5px;
+}
+
+#cuadrado5{
+    margin: 10px;
+}
+
+#cuadrado6{
+    padding: 10px;
+}
+
+#cuadrado7{
+    width: 100px;
+    height: 100px;
+}
+
+#cuadrado8{
+    box-sizing: border-box; 
+}
+
+#cuadrado9{
+    text-align: left;
+    text-shadow: 10px; 
+}
+@font-face {
+    font-family: myWeirdFont;
+    src: url(../images/ChelaOne-Regular.ttf);
+    font-weight: bold;
+}
+
+#cuadrado10{
+    font-family: myWeirdFont;
+}
+
+#cuadrado12{
+    width: 33px;
+    height: 33px;
+    background: url("../images/sprite.jpg") 33px 33px;
+    border: 10px dashed yellow;
+    margin:30px;
+}
+
+#cuadrado13{
+    outline: dotted 2px purple;
+}
+
+#cuadrado14{
+    list-style: square;
+    display: none;
+}
+
+#cuadrado15{
+    position: relative;
+    z-index:-1;;
+}
+
+#cuadrado16{
+    overflow: scroll;
+}
+
+#cuadrado17{
+    float: left;
+    clear: right;
+    background-color: red;
+}

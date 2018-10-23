@@ -2,6 +2,7 @@
     column-count: 0;
     column-gap: 40px;
     column-width:100px;
+    column-rule: 3px dotted darkviolet;
 }
 
 #cuadrado2 h2{
@@ -23,4 +24,24 @@
     border: 3px solid black;
     resize: horizontal;
     overflow: auto;
+}
+
+#cuadrado5{
+    column-count: 5;
+    color: green;
+    column-rule: 3px dotted darkviolet;
+    column-gap: 50px;
+    column-width:200px;
+}
+
+#cuadrado5 h2{
+    column-span : all;
+}
+
+#cuadrado6{
+    overflow: auto;
+    resize: both;
+    border: red dashed 2px;
+    width:100px;
+    height:100px;
 }
