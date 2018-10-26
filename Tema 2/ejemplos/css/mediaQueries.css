@@ -31,3 +31,36 @@
         animation-iteration-count:infinity;
     }
 }
+
+#cuadrado2{
+    background-color: red;
+    width:1000px;
+    height: 300px;
+}
+
+@media screen and (max-width: 800px){
+    #cuadrado2{
+        background-color: blue;
+        border: yellow dashed 2px;
+    }
+}
+@media screen and (max-width: 500px){
+    #cuadrado2{
+        background-color: yellow;
+        border:orange dotted 2px;
+    }
+}
+
+@media screen and (max-width: 200px){
+    #cuadrado2{
+        background-color: green;
+        border:violet solid 2px;
+    }
+}
+
+@media screen and (min-width:500px) and (max-width: 1000px){
+    #cuadrado2{
+        background-color: pink;
+        border:red double 2px;
+    }
+}
