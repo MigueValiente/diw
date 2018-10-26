@@ -1,0 +1,125 @@
+.ejemplo {
+    margin-top:200px;
+    perspective: 600px; /**Definimos la intensidad de la perspectiva en 3d*/
+    perspective-origin: 50% 50%;
+}
+  
+.cubo {
+    margin:auto;
+    height: 200px;
+    width: 200px;
+    position: relative;
+    transform-style: preserve-3d; /*Para indicar que los lados del cubo también están en 3d*/
+    transform: translateZ(-100px); /*Las transformaciones 3d afectan al renderizado de texto,
+                                    Cuando se aplica una transformación 3d, el navegador hace una captura
+                                    del texto y lo vuelve a renderizar cada pixel en 3d, el problema reside
+                                    que este renderizado provoca la distorsión del texto. Para evitarlo 
+                                    ubicamos el cubo a la posición de origen, poniendo el lado de atrás, dónde
+                                    le corresponde.*/                           
+}
+
+/*Ubicamos todos los lados juntos, uno encima de otro*/
+.lado {
+    position: absolute;
+    width: 200px;
+    height: 200px;
+    text-align: center;
+    line-height: 200px;
+    border: solid 1px #eeeeee;
+    /*backface-visibility: hidden;*/  /*Descomenar para ver el efecto**/
+}
+
+.lado_frente{
+    background-color:red;
+}
+
+.lado_atras{
+    background-color:yellow;
+}
+
+
+.lado_derecho{
+    background-color:orange;
+}
+
+
+.lado_izquierdo{
+    background-color:purple;
+}
+
+
+.lado_arriba{
+    background-color:green;
+}
+
+
+.lado_abajo{
+    background-color:blue;
+}
+
+/**Rotamos todos los lados a la posición que le corresponde*/
+.lado_frente{ 
+    transform: translateZ(100px); 
+}
+.lado_atras{ 
+    transform: rotateY(180deg) translateZ(-100px); 
+}
+.lado_derecho{ 
+    transform: rotateY(-270deg) translateX(100px);
+    transform-origin: top right;
+}
+
+.lado_izquierdo{ 
+    transform: rotateY(270deg) translateX(-100px);
+    transform-origin: center left;
+}
+.lado_arriba{ 
+    transform: rotateX(-270deg) translateY(-100px);
+    transform-origin: top center;
+}
+.lado_abajo{ 
+    transform: rotateX(270deg) translateY(100px);
+    transform-origin: bottom center;
+}
+
+@keyframes rotar {
+    from {
+      transform: rotateX(0deg) rotateY(0deg);
+    }
+    
+    to {
+      transform: rotateX(360deg) rotateY(360deg);
+    }
+}
+
+.cubo{
+    animation: rotar 20s infinite linear;
+}
+
+.ejemplo:hover .lado_frente {
+    transform: translateZ(200px);
+}
+  
+.ejemplo:hover .lado_atras {
+    transform: translateZ(-200px) rotateY(180deg);
+}
+  
+.ejemplo:hover .lado_derecho {
+transform: rotateY(-270deg) translateZ(100px) translateX(100px);
+}
+  
+.ejemplo:hover .lado_izquierdo {
+    transform: rotateY(270deg) translateZ(100px) translateX(-100px);
+}
+  
+.ejemplo:hover .lado_arriba {
+    transform: rotateX(-270deg) translateZ(100px) translateY(-100px);
+}
+  
+.ejemplo:hover .lado_abajo {
+    transform: rotateX(270deg) translateZ(100px) translateY(100px);
+}
+
+.lado {
+    transition: transform 0.2s ease-in;
+  }

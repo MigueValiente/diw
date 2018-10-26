@@ -62,15 +62,15 @@
 
 @keyframes ejemplo4 {
     0%{/*background-color: blue;*/}
-    10%{transform: scale(.1);background-color: red;}
-    20%{transform: scale(.2);background-color: green;}
-    30%{transform: scale(.3);background-color: yellow;}
-    40%{transform: scale(.4);background-color: purple;}
-    50%{transform: scale(.5);background-color: mediumspringgreen;}
-    60%{transform: scale(.4);background-color: purple;}
-    70%{transform: scale(.3);background-color: yellow;}
-    80%{transform: scale(.2);background-color: green;}
-    90%{transform: scale(.1);background-color: red;}
+    10%{transform: scale(0.8);background-color: red;}
+    20%{transform: scale(0.6);background-color: green;}
+    30%{transform: scale(0.4);background-color: yellow;}
+    40%{transform: scale(0.2);background-color: purple;}
+    50%{transform: scale(0);background-color: mediumspringgreen;}
+    60%{transform: scale(0.2);background-color: purple;}
+    70%{transform: scale(0.4);background-color: yellow;}
+    80%{transform: scale(0.8);background-color: green;}
+    90%{transform: scale(1);background-color: red;}
     100%{/*background-color: blue;*/}
 }
 
