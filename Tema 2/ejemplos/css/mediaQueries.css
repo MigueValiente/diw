@@ -41,13 +41,13 @@
 @media screen and (max-width: 800px){
     #cuadrado2{
         background-color: blue;
-        border: yellow dashed 2px;
+        border: yellow solid 2px;
     }
 }
 @media screen and (max-width: 500px){
     #cuadrado2{
         background-color: yellow;
-        border:orange dotted 2px;
+        border:orange solid 2px;
     }
 }
 

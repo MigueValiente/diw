@@ -1,0 +1,53 @@
+#contenedor{
+    display: flex;
+    width: 100%;
+    height: 1000px;
+    background-color: red;
+    align-content: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+.cuadrado{
+    height: 5em;
+    width: 5em;
+    border: solid yellow 2px;
+    background-color: white;
+    text-align: center;
+    
+}
+
+@media screen and (max-width: 1000px){
+    #contenedor{
+        background-color: blue;
+        align-content: flex-start;
+    }
+}
+
+@media screen and (max-width: 800px){
+    #contenedor{
+        background-color: green;
+        align-content: flex-end;
+    }
+}
+
+@media screen and (max-width: 600px){
+    #contenedor{
+        background-color: pink;
+        align-content: space-around;
+    }
+}
+
+@media screen and (max-width: 400px){
+    #contenedor{
+        background-color: greenyellow;
+        align-content: space-between;
+    }
+}
+
+@media screen and (max-width: 200px){
+    #contenedor{
+        background-color: lightblue;
+        align-content: stretch;
+    }
+}
