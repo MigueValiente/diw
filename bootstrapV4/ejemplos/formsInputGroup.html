@@ -1,0 +1,219 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+    <!-- Incluimos librería Bootstrap css-->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+          crossorigin="anonymous">
+
+
+    <!-- Incluimos las librerís JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+            ></script>
+
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+            crossorigin="anonymous">
+
+    </script>
+
+    <title>Ejemplos Bootstrap Forms</title>
+</head>
+<body>
+<h1>Formulario Input group</h1>
+<div class="input-group input-group-sm mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon1">@</span>
+    </div>
+    <input type="text" class="form-control" placeholder="Username" aria-label="Username" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group input-group-md mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+        <span class="input-group-text" id="basic-addon2">@example.com</span>
+    </div>
+</div>
+
+<label for="basic-url"> URL</label>
+<div class="input-group input-group-lg mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="basic-addon3">https://ejemplo.com/users/</span>
+    </div>
+    <input type="text" class="form-control" id="basic-url" aria-describedby="basic-addon3">
+</div>
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text">$</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+    <div class="input-group-append">
+        <span class="input-group-text">.00</span>
+    </div>
+</div>
+
+<h1>Para radio y checkbox</h1>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <div class="input-group-text">
+            <input type="checkbox" >
+        </div>
+    </div>
+    <input type="text" class="form-control" >
+</div>
+
+<div class="input-group">
+    <div class="input-group-prepend">
+        <div class="input-group-text">
+            <input type="radio" >
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with radio button">
+</div>
+
+<h1>Inputs unidos</h1>
+<div class="input-group">
+    <div class="input-group-prepend">
+        <span class="input-group-text" id="">Primer y Segundo Apellido</span>
+    </div>
+    <input type="text" class="form-control">
+    <input type="text" class="form-control">
+</div>
+
+<h1>Con botones</h1>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button">Botón</button>
+    </div>
+    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group mb-3">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button">Botón</button>
+    </div>
+</div>
+
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary" type="button">Botón</button>
+        <button class="btn btn-outline-secondary" type="button">Botón</button>
+    </div>
+    <input type="text" class="form-control" placeholder="" aria-label="" aria-describedby="basic-addon1">
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Recipient's username" aria-label="Recipient's username" aria-describedby="basic-addon2">
+    <div class="input-group-append">
+        <button class="btn btn-outline-secondary" type="button">Botón</button>
+        <button class="btn btn-outline-secondary" type="button">Botón</button>
+    </div>
+</div>
+
+<h1>Con DropDown</h1>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" aria-label="Text input with dropdown button">
+    <div class="input-group-append">
+        <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Dropdown</button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </div>
+</div>
+
+<h1>DropDown segmentado</h1>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <button type="button" class="btn btn-outline-secondary">Action</button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </div>
+    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" aria-label="Text input with segmented dropdown button">
+    <div class="input-group-append">
+        <button type="button" class="btn btn-outline-secondary">Action</button>
+        <button type="button" class="btn btn-outline-secondary dropdown-toggle dropdown-toggle-split" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <div class="dropdown-menu">
+            <a class="dropdown-item" href="#">Action</a>
+            <a class="dropdown-item" href="#">Another action</a>
+            <a class="dropdown-item" href="#">Something else here</a>
+            <div role="separator" class="dropdown-divider"></div>
+            <a class="dropdown-item" href="#">Separated link</a>
+        </div>
+    </div>
+</div>
+
+<h1>Varios elementos a la vez</h1>
+<div class="input-group mb-3">
+    <div class="input-group-prepend">
+        <span class="input-group-text">$</span>
+        <span class="input-group-text">0.00</span>
+    </div>
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+</div>
+
+<div class="input-group">
+    <input type="text" class="form-control" aria-label="Amount (to the nearest dollar)">
+    <div class="input-group-append">
+        <span class="input-group-text">$</span>
+        <span class="input-group-text">0.00</span>
+    </div>
+</div>
+
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+<br/>
+
+
+
+</body>
+</html>

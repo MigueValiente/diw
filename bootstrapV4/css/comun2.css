@@ -1,0 +1,12 @@
+.filaAltaOverlfow{
+    position: relative;
+    height: 200px;
+    overflow: auto;
+}
+
+.filaRelativa{
+    position: relative;
+    overflow: auto;
+    height: 300px;
+}
+

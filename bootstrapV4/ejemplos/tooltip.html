@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+    <!-- Incluimos librería Bootstrap css-->
+    <link rel="stylesheet"
+          href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/css/bootstrap.min.css"
+          integrity="sha384-Zug+QiDoJOrZ5t4lssLdxGhVrurbmBWopoEl+M6BdEfwnCJZtKxi1KgxUyJq13dy"
+          crossorigin="anonymous">
+
+
+    <!-- Incluimos las librerís JS -->
+    <script src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+            integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN"
+            crossorigin="anonymous"
+            ></script>
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js"
+            integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q"
+            crossorigin="anonymous">
+
+    </script>
+    <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-beta.3/js/bootstrap.min.js"
+            integrity="sha384-a5N7Y/aK3qNeh15eJKGWxsqtnX/wWdSZSKp+81YjTmS15nvnvxKHuzaWwXHDli+4"
+            crossorigin="anonymous">
+
+    </script>
+
+    <script src="../js/tooltip.js" defer></script>
+
+    <title>Ejemplos Bootstrap Tooltip</title>
+</head>
+<body>
+<h1>Ejemplo Tooltip</h1>
+
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="top" title="Mensaje Tooltip arriba">
+    Tooltip arriba
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="right" title="Mensaje Tooltip derecha">
+    Tooltip derecha
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="bottom" title="Mensaje Tooltip abajo">
+    Tooltip abajo
+</button>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-placement="left" title="Mensaje Tooltip izquierda">
+    Tooltip izquierda
+</button>
+
+<h1>Ejemplo con código HTML</h1>
+<button type="button" class="btn btn-secondary" data-toggle="tooltip" data-html="true" title="<em>Tooltip</em> <u>con</u> <b>HTML</b>">
+    Tooltip con HTML
+</button>
+
+<h1>EJEMPLO TOOLTIP CON PLANTILLA</h1>
+<button type="button" class="btn btn-secondary"
+        data-toggle="tooltip" title="ES UNA PRUEBA"
+        data-template='<div class="tooltip" role="tooltip">
+         <div class="tooltip-inner"></div>
+        <div class="bg-danger text-primary">ESTA ES LA PLANTILLA</div>
+         </div>'
+        >
+    Tooltip con HTML
+</button>
+
+</body>
+</html>
