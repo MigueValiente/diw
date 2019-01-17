@@ -1,12 +1,9 @@
-function cerrarAlerta(){
-    $("#alertaEjemplo1").alert('close');
-}
-
-function destruirAlerta(){
-    $("#alertaEjemplo2").alert('dispose');
-}
-
 $(function() {
+    
+    $("#botonCerrarAlerta").on("click",function (){
+        $("#alertaEjemplo1").alert('close');
+    })
+    
     $('#alertaEjemplo3').on('close.bs.alert', function () {
         alert("se va a cerrar la alerta");
     })
