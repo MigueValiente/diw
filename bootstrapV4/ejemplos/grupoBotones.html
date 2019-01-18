@@ -1,0 +1,119 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+   <!-- Incluimos librería Bootstrap css-->
+   <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+   integrity= "sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+   crossorigin= "anonymous" > 
+
+    <link rel="stylesheet" href="../css/comun.css"/>
+
+    <title>Ejemplos Bootstrap Grupo de Botones</title>
+</head>
+<body>
+
+<h1>Ejemplo de Grupo de Botones</h1>
+<div class="btn-group" role="group" aria-label="Basic example">
+    <button type="button" class="btn btn-primary">Izquierda</button>
+    <button type="button" class="btn btn-success">Medio</button>
+    <button type="button" class="btn btn-danger">Derecha</button>
+</div>
+
+<h1>Ejemplo de Grupo de Subgrupos de botones</h1>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group mr-2" role="group" aria-label="Primer Grupo">
+        <button type="button" class="btn btn-dark">1</button>
+        <button type="button" class="btn btn-dark">2</button>
+        <button type="button" class="btn btn-dark">3</button>
+        <button type="button" class="btn btn-dark">4</button>
+    </div>
+    <div class="btn-group mr-2" role="group" aria-label="Segundo Grupo">
+        <button type="button" class="btn btn-light">5</button>
+        <button type="button" class="btn btn-light">6</button>
+        <button type="button" class="btn btn-light">7</button>
+    </div>
+    <div class="btn-group" role="group" aria-label="Tercer grupo">
+        <button type="button" class="btn btn-info">8</button>
+    </div>
+</div>
+
+
+<h1>Ejemplo de Grupo de Botones de  distinto tamaño</h1>
+<div class="btn-group btn-group-lg" role="group">
+    <button type="button" class="btn btn-primary">Izquierda</button>
+    <button type="button" class="btn btn-success">Medio</button>
+    <button type="button" class="btn btn-danger">Derecha</button>
+</div>
+<div class="btn-group" role="group" >
+    <button type="button" class="btn btn-primary">Izquierda</button>
+    <button type="button" class="btn btn-success">Medio</button>
+    <button type="button" class="btn btn-danger">Derecha</button>
+</div>
+<div class="btn-group btn-group-sm" role="group" >
+    <button type="button" class="btn btn-primary">Izquierda</button>
+    <button type="button" class="btn btn-success">Medio</button>
+    <button type="button" class="btn btn-danger">Derecha</button>
+</div>
+
+<h1>Ejemplo de Grupo de botones verticales</h1>
+<div class="btn-toolbar" role="toolbar" aria-label="Toolbar with button groups">
+    <div class="btn-group-vertical mr-2" role="group" aria-label="Primer Grupo">
+        <button type="button" class="btn btn-dark">Boton 1</button>
+        <button type="button" class="btn btn-dark">Botón 2</button>
+        <button type="button" class="btn btn-dark">Botón 3</button>
+        <button type="button" class="btn btn-dark">Botón 4</button>
+    </div>
+    <div class="btn-group-vertical mr-2" role="group" aria-label="Segundo Grupo">
+        <button type="button" class="btn btn-danger">Botón 5</button>
+        <button type="button" class="btn btn-danger">Botón 6</button>
+        <button type="button" class="btn btn-danger">Botón 7</button>
+    </div>
+    <div class="btn-group-vertical" role="group" aria-label="Tercer grupo">
+        <button type="button" class="btn btn-info">Botón 8</button>
+    </div>
+</div>
+
+<h1>Elementos tipo checkboxs agrupados</h1>
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+        <input type="checkbox" checked autocomplete="off"> Activo
+    </label>
+    <label class="btn btn-secondary">
+        <input type="checkbox" autocomplete="off"> Marcar
+    </label>
+    <label class="btn btn-secondary">
+        <input type="checkbox" autocomplete="off"> Marcar
+    </label>
+</div>
+
+<h1>Elementos tipo radio agrupados</h1>
+<div class="btn-group btn-group-toggle" data-toggle="buttons">
+    <label class="btn btn-secondary active">
+        <input type="radio" name="options" id="option1" autocomplete="off" checked> Activo
+    </label>
+    <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option2" autocomplete="off"> Marcar
+    </label>
+    <label class="btn btn-secondary">
+        <input type="radio" name="options" id="option3" autocomplete="off"> Marcar
+    </label>
+</div>
+
+<!-- Incluimos las librerís JS -->
+
+<script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+integrity= "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+integrity= "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+crossorigin= "anonymous" defer></script> 
+</body>
+</html>

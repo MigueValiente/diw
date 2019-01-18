@@ -1,0 +1,179 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+    <!-- Incluimos librería Bootstrap css-->
+    <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity= "sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    crossorigin= "anonymous" > 
+
+    <title>Ejemplos Bootstrap Forms Layout</title>
+</head>
+<body>
+<h1>Formulario Simple</h1>
+<form>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputEmail4">Email</label>
+            <input type="email" class="form-control" id="inputEmail4" placeholder="Email">
+        </div>
+        <div class="form-group col-md-6">
+            <label for="inputPassword4">Contraseña</label>
+            <input type="password" class="form-control" id="inputPassword4" placeholder="Password">
+        </div>
+    </div>
+    <div class="form-group">
+        <label for="inputAddress">Dirección</label>
+        <input type="text" class="form-control" id="inputAddress" placeholder="1234 Main St">
+    </div>
+    <div class="form-group">
+        <label for="inputAddress2">Dirección 2</label>
+        <input type="text" class="form-control" id="inputAddress2" placeholder="Apartment, studio, or floor">
+    </div>
+    <div class="form-row">
+        <div class="form-group col-md-6">
+            <label for="inputCity">Ciudad</label>
+            <input type="text" class="form-control" id="inputCity">
+        </div>
+        <div class="form-group col-md-4">
+            <label for="inputState">Comunidad</label>
+            <select id="inputState" class="form-control">
+                <option selected>Andalucia</option>
+                <option>Madrid</option>
+                <option>Galicia</option>
+            </select>
+        </div>
+        <div class="form-group col-md-2">
+            <label for="inputZip">Codigo Postal</label>
+            <input type="text" class="form-control" id="inputZip">
+        </div>
+    </div>
+    <div class="form-group">
+        <div class="form-check">
+            <input class="form-check-input" type="checkbox" id="gridCheck">
+            <label class="form-check-label" for="gridCheck">
+                Confirmar los datos.
+            </label>
+        </div>
+    </div>
+    <button type="submit" class="btn btn-primary">Registrarse</button>
+</form>
+
+<h1>Formulario Horizontal</h1>
+<form>
+    <div class="form-group row">
+        <label for="colFormLabelSm" class="col-sm-2 col-form-label col-form-label-sm">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control form-control-sm" id="colFormLabelSm" placeholder="col-form-label-sm">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="colFormLabel" class="col-sm-2 col-form-label">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control" id="colFormLabel" placeholder="col-form-label">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="colFormLabelLg" class="col-sm-2 col-form-label col-form-label-lg">Email</label>
+        <div class="col-sm-10">
+            <input type="email" class="form-control form-control-lg" id="colFormLabelLg" placeholder="col-form-label-lg">
+        </div>
+    </div>
+    <div class="form-group row">
+        <label for="inputPassword3" class="col-sm-2 col-form-label">Password</label>
+        <div class="col-sm-10">
+            <input type="password" class="form-control" id="inputPassword3" placeholder="Password">
+        </div>
+    </div>
+    <fieldset class="form-group">
+        <div class="row">
+            <legend class="col-form-label col-sm-2 pt-0">Radios</legend>
+            <div class="col-sm-10">
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios1" value="option1" checked>
+                    <label class="form-check-label" for="gridRadios1">
+                        First radio
+                    </label>
+                </div>
+                <div class="form-check">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios2" value="option2">
+                    <label class="form-check-label" for="gridRadios2">
+                        Second radio
+                    </label>
+                </div>
+                <div class="form-check disabled">
+                    <input class="form-check-input" type="radio" name="gridRadios" id="gridRadios3" value="option3" disabled>
+                    <label class="form-check-label" for="gridRadios3">
+                        Third disabled radio
+                    </label>
+                </div>
+            </div>
+        </div>
+    </fieldset>
+    <div class="form-group row">
+        <div class="col-sm-2">Checkbox</div>
+        <div class="col-sm-10">
+            <div class="form-check">
+                <input class="form-check-input" type="checkbox" id="gridCheck1">
+                <label class="form-check-label" for="gridCheck1">
+                    Example checkbox
+                </label>
+            </div>
+        </div>
+    </div>
+    <div class="form-group row">
+        <div class="col-sm-10">
+            <button type="submit" class="btn btn-primary">Sign in</button>
+        </div>
+    </div>
+</form>
+
+<h1>Form Inline</h1>
+<form class="form-inline">
+    <label class="sr-only" for="inlineFormInputName2">Nombre</label>
+    <input type="text" class="form-control mb-2 mr-sm-2" id="inlineFormInputName2" placeholder="Jorge">
+
+    <label class="sr-only" for="inlineFormInputGroupUsername2">Apellido</label>
+    <div class="input-group mb-2 mr-sm-2">
+        <div class="input-group-prepend">
+            <div class="input-group-text">@</div>
+        </div>
+        <input type="text" class="form-control" id="inlineFormInputGroupUsername2" placeholder="Apellido">
+    </div>
+
+    <div class="form-check mb-2 mr-sm-2">
+        <input class="form-check-input" type="checkbox" id="inlineFormCheck">
+        <label class="form-check-label" for="inlineFormCheck">
+            Recordad
+        </label>
+    </div>
+
+    <button type="submit" class="btn btn-primary mb-2">Log In</button>
+</form>
+
+
+<h1>Form-text</h1>
+<label for="inputPassword5">Password</label>
+<input type="password" id="inputPassword5" class="form-control" aria-describedby="passwordHelpBlock">
+<small id="passwordHelpBlock" class="form-text text-muted">
+    El password debe tener al menos 2 mayúscula y minúsculas. El número total de caracteres debe ser entre 10-20.
+</small>
+
+<!-- Incluimos las librerís JS -->
+
+<script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+integrity= "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+integrity= "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+crossorigin= "anonymous" defer></script> 
+
+</body>
+</html>

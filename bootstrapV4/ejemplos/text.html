@@ -1,0 +1,87 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+   <!-- Incluimos librería Bootstrap css-->
+   <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+   integrity= "sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+   crossorigin= "anonymous" > 
+
+    <link rel="stylesheet" href="../css/comun.css"/>
+
+    <title>Ejemplos Bootstrap Texto</title>
+</head>
+<body>
+
+<h1>ESTE ES UN EJEMPLO DE ALINEACION DE TEXTO</h1>
+<p class="text-left">Texto alineado a la izquierda</p>
+<p class="text-center">Texto alineado en el centro</p>
+<p class="text-right">Texto alineado a la derecha</p>
+
+<p class="text-sm-left">Texto alineado a la izquierda con tamaño de viewport pequeño o mayor</p>
+<p class="text-md-left">Texto alineado a la izquierda con tamaño de viewport mediano o mayor</p>
+<p class="text-lg-left">Texto alineado a la izquierda con tamaño de viewport grande o mayor.</p>
+<p class="text-xl-left">Texto alineado a la izquierda con tamaño de viewport muy grande</p>
+
+
+<h1>ESTE ES UN EJEMPLO DE WRAPPING</h1>
+
+<div class="row">
+    <div class="col-1">
+        Esto es un ejemplo de un texto muy largo que no cabe dentro del div que lo contiene
+    </div>
+    <div class="col-11 ">
+        CASI TODA LA PANTALLA ES MIA SIN TEXT-NOWRAP
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-1 text-nowrap">
+       Esto es un ejemplo de un texto muy largo que no cabe dentro del div que lo contiene
+    </div>
+    <div class="col-11 ">
+        CASI TODA LA PANTALLA NO ES MIA CON TEXT-NOWRAP
+    </div>
+</div>
+
+<h1>ESTE ES UN EJEMPLO DE TRUNCATE</h1>
+
+<div class="row">
+    <div class="col-2 text-truncate">
+       ESTE TEXTO SE VA A TRUNCAR PORQUE ES MUY LARGO
+    </div>
+</div>
+
+
+<h1>ESTE ES UN EJEMPLO DE TRANSFORMACIONES</h1>
+
+<p class="text-lowercase">TEXTO EN MINÚSUCULA.</p>
+<p class="text-uppercase">texto en mayúscula</p>
+<p class="text-capitalize">texto de primera letra en mayúscula</p>
+
+<h1>ESTE ES UN EJEMPLO DE NEGRITA Y CRUSIVA</h1>
+
+<p class="font-weight-bold">NEGRITA</p>
+<p class="font-weight-normal">Texto normal</p>
+<p class="font-weight-light">Texto más fino</p>
+<p class="font-italic">Texto en cursiva</p>
+
+
+<!-- Hacer 4 parráfo aplicando varias de las clases explicadas -->
+
+
+<script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+integrity= "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+integrity= "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+crossorigin= "anonymous" defer></script>
+</body>
+</html>

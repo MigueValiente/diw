@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+    <<!-- Incluimos librería Bootstrap css-->
+    <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity= "sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    crossorigin= "anonymous" > 
+
+
+    <title>Ejemplos Collapse</title>
+</head>
+<body>
+<h1>Ejemplos de collapse</h1>
+<p>
+    <a class="btn btn-primary"
+       data-toggle="collapse"
+       href="#collapseExample" role="button" aria-expanded="false" aria-controls="collapseExample">
+        Link con href
+    </a>
+    <button class="btn btn-primary" type="button"
+            data-toggle="collapse"
+            data-target="#collapseExample" aria-expanded="false" aria-controls="collapseExample">
+        Botón con data-target
+    </button>
+</p>
+<div class="collapse" id="collapseExample">
+    <div>
+    Texto a mostrar
+    </div>
+</div>
+
+
+<h1>Ejemplos de collapse múltiple</h1>
+
+<p>
+    <a class="btn btn-primary" data-toggle="collapse" href="#multiCollapseExample1" role="button" aria-expanded="false" aria-controls="multiCollapseExample1">Toggle Primer elemento</a>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target="#multiCollapseExample2" aria-expanded="false" aria-controls="multiCollapseExample2">Toggle Segundo elemento</button>
+    <button class="btn btn-primary" type="button" data-toggle="collapse" data-target=".multi-collapse" aria-expanded="false" aria-controls="multiCollapseExample1 multiCollapseExample2">Toggle Ambos elementos</button>
+</p>
+<div class="row">
+    <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample1">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="collapse multi-collapse" id="multiCollapseExample2">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+    </div>
+</div>
+
+<h1>Ejemplos de javascript</h1>
+
+<button class="btn btn-primary" onclick="mostrar()">Botón mostrar</button>
+<button class="btn btn-secondary" onclick="ocultar()">Botón ocultar</button>
+<button class="btn btn-warning" onclick="toogle()">Botón toogle</button>
+
+
+<div class="row">
+    <div class="col">
+        <div class="collapse multi-collapse" id="elemento1">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+    </div>
+    <div class="col">
+        <div class="collapse multi-collapse" id="elemento2">
+            <div class="card card-body">
+                Anim pariatur cliche reprehenderit, enim eiusmod high life accusamus terry richardson ad squid. Nihil anim keffiyeh helvetica, craft beer labore wes anderson cred nesciunt sapiente ea proident.
+            </div>
+        </div>
+    </div>
+</div>
+<
+
+ <!-- Incluimos las librerís JS -->
+
+ <script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+ integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+ crossorigin= "anonymous" defer></script> 
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+ integrity= "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+ crossorigin= "anonymous" defer></script> 
+
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+ integrity= "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+ crossorigin= "anonymous" defer></script> 
+
+    <script src="../js/collapse.js" defer></script>
+
+</body>
+</html>

@@ -1,0 +1,230 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+   <!-- Incluimos librería Bootstrap css-->
+   <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+   integrity= "sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+   crossorigin= "anonymous" > 
+
+      <link rel="stylesheet" href="../css/comun.css"/>
+
+    <title>Ejemplos Bootstrap Layout</title>
+</head>
+<body>
+
+<!-- Contenedor con dos filas -->
+<!-- Probar a cambiar a container-fluid -->
+<h1>EJEMPLO CON COLUMNAS CON TAMAÑO AUTOMÁTICO</h1>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            1 de 2
+        </div>
+        <div class="col">
+            2 de 2
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            1 de 3
+        </div>
+        <div class="col">
+            2 de 3
+        </div>
+        <div class="col">
+            3 de 3
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            1 de 6
+        </div>
+        <div class="col">
+            2 de 6
+        </div>
+        <div class="col">
+            3 de 6
+        </div>
+        <div class="col">
+            4 de 6
+        </div>
+        <div class="col">
+            5 de 6
+        </div>
+        <div class="col">
+            6 de 6
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            1 de 12
+        </div>
+        <div class="col">
+            2 de 12
+        </div>
+        <div class="col">
+            3 de 12
+        </div>
+        <div class="col">
+            4 de 12
+        </div>
+        <div class="col">
+            5 de 12
+        </div>
+        <div class="col">
+            6 de 12
+        </div>
+        <div class="col">
+            7 de 12
+        </div>
+        <div class="col">
+            8 de 12
+        </div>
+        <div class="col">
+            9 de 12
+        </div>
+        <div class="col">
+            10 de 12
+        </div>
+        <div class="col">
+            11 de 12
+        </div>
+        <div class="col">
+            12 de 12
+        </div>
+    </div>
+</div>
+
+
+<h1>EJEMPLO CON COLUMNAS CON TAMAÑO DISTINTO</h1>
+<div class="container">
+    <div class="row">
+        <div class="col">
+            1 de 3
+        </div>
+        <div class="col-6">
+            2 de 3
+        </div>
+        <div class="col">
+            3 de 3
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-1">
+            1 de 3
+        </div>
+        <div class="col">
+            2 de 3
+        </div>
+        <div class="col-5">
+            3 de 3
+        </div>
+    </div>
+</div>
+
+<h1>EJEMPLO DE SALTO DE FILA</h1>
+<div class="container">
+    <div class="row">
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+        <div class="w-100"></div>
+        <div class="col">Column</div>
+        <div class="col">Column</div>
+    </div>
+</div>
+
+<h1>EJEMPLO CON COLUMNAS CON TAMAÑO CON NOMENCLATURA BREAKPOINTS</h1>
+<div class="container">
+    <div class="row">
+        <div class="col-sm-3">
+            PEQUEÑO
+        </div>
+        <div class="col-md-3">
+            MEDIANO
+        </div>
+        <div class="col-lg-3">
+            GRANDE
+        </div>
+        <div class="col-xl-3">
+            EXTRA GRANDE
+        </div>
+    </div>
+    <div class="row">
+        <div class="col">
+            EXTRA PEQUEÑO
+        </div>
+        <div class="col-sm">
+            PEQUEÑO
+        </div>
+        <div class="col-md">
+            MEDIANO
+        </div>
+        <div class="col-lg">
+            GRANDE
+        </div>
+        <div class="col-xl">
+            EXTRA GRANDE
+        </div>
+    </div>
+    <div class="row">
+        <div class="col-auto">
+            EXTRA PEQUEÑO CONTENIDO AUTO
+        </div>
+        <div class="col-sm-auto">
+            PEQUEÑO CONTENIDO AUTO
+        </div>
+        <div class="col-md-auto">
+            MEDIANO CONTENIDO AUTO
+        </div>
+        <div class="col-lg-auto">
+            GRANDE CONTENIDO AUTO
+        </div>
+    </div>
+</div>
+
+<h1>EJEMPLO CON COLUMNAS CON DISTINTAS CLASES DE TAMAÑO</h1>
+<div class="container">
+
+    <!-- Cuando el tamaño de la pantalla sea menor que breakpoint medio, una columna ocupará todo el ancho y la otra la mitad-->
+    <div class="row">
+        <div class="col-12 col-md-8">.col-12 .col-md-8</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+
+    <!-- Cuando el tamaño de la pantalla sea menor que el breakpoint medio, cada columna ocupará la mitad-->
+    <div class="row">
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+        <div class="col-6 col-md-4">.col-6 .col-md-4</div>
+    </div>
+
+    <!-- Ocuparará siempre la mitad cada columna    -->
+    <div class="row">
+        <div class="col-6">.col-6</div>
+        <div class="col-6">.col-6</div>
+    </div>
+    </div>
+</div>
+
+
+
+<!-- Ejercicio crear un contenedor con 4 columnas y cada una debe tener un tamaño distinto dependiendo del tamaño de la pantalla-->
+
+<!-- Incluimos las librerís JS -->
+
+<script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+integrity= "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+crossorigin= "anonymous" defer></script> 
+
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+integrity= "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+crossorigin= "anonymous" defer></script> 
+</body>
+</html>

@@ -1,0 +1,128 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+    <!-- Incluimos librería Bootstrap css-->
+    <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+    integrity= "sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+    crossorigin= "anonymous" > 
+
+    <title>Ejemplos Bootstrap Alertas</title>
+</head>
+<body>
+
+<h1>Ejemplos de alertas</h1>
+<div class="alert alert-primary" role="alert">
+    Alerta con color primario
+</div>
+<div class="alert alert-secondary" role="alert">
+   Alerta con color secundario
+</div>
+<div class="alert alert-success" role="alert">
+    Alerta correcto
+</div>
+<div class="alert alert-danger" role="alert">
+   Alerta error
+</div>
+<div class="alert alert-warning" role="alert">
+   Alerta aviso
+</div>
+<div class="alert alert-info" role="alert">
+   Alerta información
+</div>
+<div class="alert alert-light" role="alert">
+   Alerta con un color claro
+</div>
+<div class="alert alert-dark" role="alert">
+    Alerta <oscura></oscura>
+</div>
+
+<h1>Ejemplos de alertas con link</h1>
+<div class="alert alert-primary" role="alert">
+  Alerta con color primario <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+<div class="alert alert-secondary" role="alert">
+    Alerta con color secundario <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+<div class="alert alert-success" role="alert">
+    Alerta con color correcto <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+<div class="alert alert-danger" role="alert">
+    Alerta con color error <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+<div class="alert alert-warning" role="alert">
+    Alerta con color aviso <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+<div class="alert alert-info" role="alert">
+    Alerta con color información <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+<div class="alert alert-light" role="alert">
+    Alerta con color claro <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+<div class="alert alert-dark" role="alert">
+    Alerta con color oscuro <a href="#" class="alert-link">Link de ejemplo</a>. Pulsa si quieres.
+</div>
+
+<h1>Ejemplos de alertas con cabeceras</h1>
+<div class="alert alert-success" role="alert">
+    <h4 class="alert-heading">Cabecera en alerta</h4>
+    <p>Este es el contenido de la alerta</p>
+</div>
+
+<div class="alert alert-warning" role="alert">
+    <h4 class="alert-heading">Cabecera en alerta</h4>
+    <p>Este es el contenido de la alerta</p>
+</div>
+
+<h1>Ejemplos de alertas con cierre</h1>
+<div class="alert alert-danger alert-dismissible fade show w-50" role="alert">
+    HA HABIDO UN ERROR EN EL FORMULARIO
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<div class="alert alert-success alert-dismissible fade show w-50" role="alert">
+    TODO HA SALIDO PERFECTO
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close" >
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<h1>Ejemplos de alertas con javascript</h1>
+<button id="botonCerrarAlerta"> CERRAR ALERTA</button>
+
+<div id="alertaEjemplo1" class="alert alert-warning alert-dismissible fade show w-50" role="alert">
+    ALERTA JAVASCRIPT QUE SE VA A CERRAR
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+<div id="alertaEjemplo3" class="alert alert-dark alert-dismissible fade show w-50" role="alert">
+    SE HA MOSTRADO LA ALERTA POR JAVASCRIPT
+    <button type="button" class="close" data-dismiss="alert" aria-label="Close">
+        <span aria-hidden="true">&times;</span>
+    </button>
+</div>
+
+ <!-- Incluimos las librerís JS -->
+
+ <script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+ integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+ crossorigin= "anonymous" defer></script> 
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+ integrity= "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+ crossorigin= "anonymous" defer></script> 
+
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+ integrity= "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+ crossorigin= "anonymous" defer></script> 
+
+ 
+ <script src="../js/alertas.js" defer></script>
+</body>
+</html>

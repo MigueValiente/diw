@@ -1,0 +1,216 @@
+<!DOCTYPE html>
+<html>
+<head lang="es">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no" >
+
+   <!-- Incluimos librería Bootstrap css-->
+   <link rel= "stylesheet" href= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" 
+   integrity= "sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" 
+   crossorigin= "anonymous" > 
+
+    <title>Ejemplos Bootstrap Card</title>
+</head>
+<body>
+<h1>Ejemplo Card</h1>
+<div class="card w-25" >
+    <img class="card-img-top" src="../imagenes/joker.png" alt="Card image cap">
+    <div class="card-body">
+        <h5 class="card-title">Card Titulo</h5>
+        <p class="card-text">Este es un ejemplo del componente Card</p>
+        <a href="#" class="btn btn-primary">Vamos a un sitio</a>
+    </div>
+</div>
+
+<h1>Ejemplo completo</h1>
+<div class="card w-25">
+    <div class="card-body">
+        <h5 class="card-title">Card Titulo</h5>
+        <p class="card-text">Este es un ejemplo del componente Card</p>
+        <a href="#" class="btn btn-primary">Vamos a un sitio</a>
+    </div>
+    <ul class="list-group list-group-flush">
+        <li class="list-group-item">Cras justo odio</li>
+        <li class="list-group-item">Dapibus ac facilisis in</li>
+        <li class="list-group-item">Vestibulum at eros</li>
+    </ul>
+    <div class="card-body">
+        <a href="#" class="card-link">ES UN LINK</a>
+        <a href="#" class="card-link">ES OTRO LINK</a>
+    </div>
+    <img class="card-img-bottom" src="../imagenes/joker.png" alt="Card image cap">
+</div>
+
+<h1>Ejemplo header y footer</h1>
+<div class="card text-center">
+    <div class="card-header">
+        Configuración
+    </div>
+    <div class="card-body">
+        <h5 class="card-title">Titulo con trato especial</h5>
+        <p class="card-text">Pulsa el botón de abajo para ir a otra página</p>
+        <a href="#" class="btn btn-primary">Ir a cualquier sitio</a>
+    </div>
+    <div class="card-footer text-muted">
+        hace dos días.
+    </div>
+</div>
+
+<h1>Ejemplo de imagen y card unidos</h1>
+<div class="card text-center w-50">
+    <img class="card-img" src="../imagenes/imagen1.jpg" alt="Card image cap">
+    <div class="card-img-overlay">
+        <h5 class="card-title">Titulo con trato especial</h5>
+        <p class="card-text">Pulsa el botón de abajo para ir a otra página</p>
+        <a href="#" class="btn btn-primary">Ir a cualquier sitio</a>
+    </div>
+</div>
+
+<h1>Grupo de Unidos</h1>
+<div class="card-group">
+    <div class="card bg-success">
+        <div class="card-header bg-transparent border-success">Cabecera</div>
+        <div class="card-body">
+            <h5 class="card-title">Card Número 1</h5>
+            <p class="card-text">Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente</p>
+            <p class="card-text"><small class="text-muted">Hace tres minutos</small></p>
+        </div>
+        <div class="card-footer bg-transparent border-success">Pie</div>
+    </div>
+    <div class="card">
+        <div class="card-header bg-transparent border-primary">Cabecera</div>
+        <div class="card-body">
+            <h5 class="card-title">Card Número 2</h5>
+            <p class="card-text">Este ejemplo es con un texto normal</p>
+            <p class="card-text"><small class="text-muted">Hace tres minutos</small></p>
+        </div>
+        <div class="card-footer bg-transparent border-primary">Pie</div>
+    </div>
+    <div class="card bg-danger">
+        <div class="card-header bg-transparent border-danger">Cabecera</div>
+        <div class="card-body">
+            <h5 class="card-title">Card Número 3</h5>
+            <p class="card-text">Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente.
+                Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente
+                Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente
+                Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente</p>
+            <p class="card-text"><small class="text-muted">Hace tres minutos</small></p>
+        </div>
+        <div class="card-footer bg-transparent border-danger">Pie</div>
+    </div>
+</div>
+
+<h1>Grupo de Cards Separados</h1>
+<div class="card-deck">
+    <div class="card bg-success">
+        <div class="card-header bg-transparent border-success">Cabecera</div>
+        <div class="card-body">
+            <h5 class="card-title">Card Número 1</h5>
+            <p class="card-text">Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente</p>
+            <p class="card-text"><small class="text-muted">Hace tres minutos</small></p>
+        </div>
+        <div class="card-footer bg-transparent border-success">Pie</div>
+    </div>
+    <div class="card">
+        <div class="card-header bg-transparent border-primary">Cabecera</div>
+        <div class="card-body">
+            <h5 class="card-title">Card Número 2</h5>
+            <p class="card-text">Este ejemplo es con un texto normal</p>
+            <p class="card-text"><small class="text-muted">Hace tres minutos</small></p>
+        </div>
+        <div class="card-footer bg-transparent border-primary">Pie</div>
+    </div>
+    <div class="card bg-danger">
+        <div class="card-header bg-transparent border-danger">Cabecera</div>
+        <div class="card-body">
+            <h5 class="card-title">Card Número 3</h5>
+            <p class="card-text">Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente.
+                Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente
+                Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente
+                Este texto es de ejemplo y es un poco más largo y para comprobar que el contenido se adapta y alinea correctamente</p>
+            <p class="card-text"><small class="text-muted">Hace tres minutos</small></p>
+        </div>
+        <div class="card-footer bg-transparent border-danger">Pie</div>
+    </div>
+</div>
+
+<h1>Ejemplo de Cards Columns</h1>
+<div class="card-columns">
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Card title that wraps to a new line</h5>
+            <p class="card-text">This is a longer card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+        </div>
+    </div>
+    <div class="card p-3">
+        <blockquote class="blockquote mb-0 card-body">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+                <small class="text-muted">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+            </footer>
+        </blockquote>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card bg-primary text-white text-center p-3">
+        <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat.</p>
+            <footer class="blockquote-footer">
+                <small>
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+            </footer>
+        </blockquote>
+    </div>
+    <div class="card text-center">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+    <div class="card">
+        <img class="card-img" src="../imagenes/joker.png" alt="Card image">
+    </div>
+    <div class="card p-3 text-right">
+        <blockquote class="blockquote mb-0">
+            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit. Integer posuere erat a ante.</p>
+            <footer class="blockquote-footer">
+                <small class="text-muted">
+                    Someone famous in <cite title="Source Title">Source Title</cite>
+                </small>
+            </footer>
+        </blockquote>
+    </div>
+    <div class="card">
+        <div class="card-body">
+            <h5 class="card-title">Card title</h5>
+            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+            <p class="card-text"><small class="text-muted">Last updated 3 mins ago</small></p>
+        </div>
+    </div>
+</div>
+
+ <!-- Incluimos las librerís JS -->
+
+ <script src= "https://code.jquery.com/jquery-3.3.1.slim.min.js" 
+ integrity= "sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" 
+ crossorigin= "anonymous" defer></script> 
+
+<script src= "https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" 
+ integrity= "sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" 
+ crossorigin= "anonymous" defer></script> 
+
+<script src= "https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" 
+ integrity= "sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" 
+ crossorigin= "anonymous" defer></script> 
+
+</body>
+</html>
